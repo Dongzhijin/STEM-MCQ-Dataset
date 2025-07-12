@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# TensorBoard logs
+logs/
+
+# Environment files
+.env
+venv/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.swp
