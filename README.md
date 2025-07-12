@@ -12,6 +12,24 @@
 
 ---
 
+## 📂 项目结构
+
+### 根目录
+
+- **README.md**：项目说明文件，包含项目目标、数据来源、处理流程和实验结果。
+
+- **LICENSE**：开源协议文件，定义项目的使用权限。
+
+### scripts 文件夹
+
+- **prompt_template.py**：包含生成多选题的模板和相关逻辑。
+
+- **generate_mcq.py**：实现将开放式问题转换为结构化多选题的功能。
+
+- **repetition_penalty.py**：实现复读机惩罚机制，通过 n-gram 重复率计算减少重复答案现象。
+
+---
+
 ## 📦 数据来源与处理
 
 ### 原始数据来源
@@ -124,19 +142,5 @@ Now, generate the multiple-choice question while ensuring it requires reasoning.
 
 ---
 
-## 📂 项目代码结构
 
-### 根目录
-
-- **README.md**：项目说明文件，包含项目目标、数据来源、处理流程和实验结果。
-
-- **LICENSE**：开源协议文件，定义项目的使用权限。
-
-### scripts 文件夹
-
-- **prompt_template.py**：包含生成多选题的模板和相关逻辑。
-
-- **generate_mcq.py**：实现将开放式问题转换为结构化多选题的功能。
-
-- **repetition_penalty.py**：实现复读机惩罚机制，通过 n-gram 重复率计算减少重复答案现象。
 
